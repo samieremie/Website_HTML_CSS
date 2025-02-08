@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+nav ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+.hero .header .logo,
+.title .text h1 {
+    color: #F1FAF8;
+}
+
+.title .text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .header .logo{
+    font-size: 24px;
+}
+
+.title .text p,
+nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 300px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+.hero .title {
+    display: flex;
+    height: 300px;
+    padding: 50px 300px;
+    justify-content: space-between;
+}
+
+.image img {
+    width: auto;
+    height: 250px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-top {
+    flex: 0 0 auto;
+    align-self: flex-start;
+}
+
+.information {
+    padding: 10px 300px;
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.footer {
+    padding: 15px 300px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .copyright {
+    color: #E5E7EB;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.information .title {
+    margin: 40px 0px;
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4 {
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 390px;
+}
+
+.sign-up-top,
+.sign-up-bottom {
+    padding: 5px 20px;
+}
+
+.quote .text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.quote .author {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+}
+
+.sign-up {
+    margin: 50px 300px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.sign-up-bottom {
+    border: 1px solid #F9FAF8;
+}
+
+.sign-up .text {
+    color: #F9FAF8;
+}
+
+.sign-up .text .title {
+    font-weight: 700;
+    font-size: 20px;
+}
